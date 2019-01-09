@@ -1,0 +1,19 @@
+{
+  "pages": [
+
+    "pages/home/main",
+    "pages/details/main",
+    "pages/secondHand/main",
+    "pages/houseList/main",
+    "pages/address/main",
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff552e",
+    "navigationBarTitleText": "租房小程序",
+    "navigationBarTextStyle": "width"
+  }
+}

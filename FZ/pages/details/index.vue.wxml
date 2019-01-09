@@ -1,0 +1,24 @@
+<import src="/components/gohome.vue.wxml" /><template name="2303f476"><view class="_div data-v-1d7c8256 wrap"><view class="_div data-v-1d7c8256 det-wrap"><view class="_div data-v-1d7c8256 det-top"><view class="_div data-v-1d7c8256 banner"><swiper class="_swiper data-v-1d7c8256 swiper-wrap" current="0" bindchange="handleProxy" autoplay circular data-eventid="{{'0'}}" data-comkey="{{$k}}"><swiper-item class="_swiper-item data-v-1d7c8256 item" wx:key="item" key="{{item}}" wx:for="{{detlist.imgurl}}" wx:for-index="index" wx:for-item="item"><image src="{{item}}" class="_image data-v-1d7c8256 slide-image"></image></swiper-item></swiper> <view class="_div data-v-1d7c8256 num">{{current}}/{{detlist.imgurl.length}}</view></view></view> <view class="_div data-v-1d7c8256 det-bottom"><view class="_div data-v-1d7c8256 title">
+        {{detlist.title}}
+      </view> <view class="_div data-v-1d7c8256 other"><view class="_div data-v-1d7c8256 time">
+          更新: {{detlist.updataTime}}
+        </view> <view class="_div data-v-1d7c8256 browse">
+          浏览：{{detlist.see}}次
+        </view></view></view></view> <view class="_div data-v-1d7c8256 det-info"><view class="_div data-v-1d7c8256 det-info-top"><view class="_div data-v-1d7c8256 item"><label class="_span data-v-1d7c8256 title">
+          户型
+        </label> <label class="_span data-v-1d7c8256">3室2厅1卫</label></view> <view class="_div data-v-1d7c8256 item"><label class="_span data-v-1d7c8256 title">
+          总价
+        </label> <label class="_span data-v-1d7c8256">145万元</label></view></view> <view class="_div data-v-1d7c8256 det-info-bottom"><view class="_div data-v-1d7c8256 left"><view class="_div data-v-1d7c8256 item">
+          小区：<label class="_span data-v-1d7c8256"> 青云大厦</label></view> <view class="_div data-v-1d7c8256 item">
+          楼层：<label class="_span data-v-1d7c8256"> 中层/12层</label></view> <view class="_div data-v-1d7c8256 item">
+          装修：<label class="_span data-v-1d7c8256"> 简单装修</label></view> <view class="_div data-v-1d7c8256 item">
+          地址：<label class="_span data-v-1d7c8256"> 莞城 - 罗沙路138号</label></view></view> <view class="_div data-v-1d7c8256 right"><view class="_div data-v-1d7c8256 item">
+          面积：<label class="_span data-v-1d7c8256"> 130m²</label></view> <view class="_div data-v-1d7c8256 item">
+          朝向：<label class="_span data-v-1d7c8256"> 南</label></view> <view class="_div data-v-1d7c8256 item">
+          类型：<label class="_span data-v-1d7c8256"> 普通住宅</label></view></view></view></view> <view class="_div data-v-1d7c8256 economic-man"><view class="_div data-v-1d7c8256 title">
+      经济人信息
+    </view> <view class="_div data-v-1d7c8256 economic-man-info"><view class="_div data-v-1d7c8256 avatar"><image src="/static/tx.jpg" class="_img data-v-1d7c8256"></image></view> <view class="_div data-v-1d7c8256"><view class="_div data-v-1d7c8256 name">马晶晶</view> <view class="_div data-v-1d7c8256 company">公司名: 东莞市辰宇房地产经纪有限公司</view></view></view></view> <view class="_div data-v-1d7c8256 describe"><view class="_div data-v-1d7c8256 title">
+      经济人信息
+    </view> <view class="_div data-v-1d7c8256 describe-info">
+      此房是标准的3房2厅1卫的，客厅带大阳台，厨卫设计高端，楼层处于小区非常好的位置，出行方便；居住安静舒适，采光非常好！
+    </view></view> <view class="_div data-v-1d7c8256 flexfooter"><view class="_div data-v-1d7c8256 con"><view class="_div data-v-1d7c8256 box"><view class="_div data-v-1d7c8256 item"><label class="_span data-v-1d7c8256 icon wxicon"><image src="/static/weixin.png" alt class="_img data-v-1d7c8256"></image></label> <label class="_span data-v-1d7c8256 text">分享</label></view> <view class="_div data-v-1d7c8256 item"><label class="_span data-v-1d7c8256 icon hbicon"><image src="/static/gecihaibaoxuanzetupian.png" alt class="_img data-v-1d7c8256"></image></label> <label class="_span data-v-1d7c8256 text">生成海报</label></view></view> <view class="_div data-v-1d7c8256 box rightbtn"><view class="_div data-v-1d7c8256 cen"><label class="_span data-v-1d7c8256 icon"><image src="/static/liaotian.png" alt class="_img data-v-1d7c8256"></image></label> <label class="_span data-v-1d7c8256 text">微聊</label></view></view> <view class="_div data-v-1d7c8256 box rightbtn"><view class="_div data-v-1d7c8256 cen"><label class="_span data-v-1d7c8256 icon"><image src="/static/iconPhone.png" alt class="_img data-v-1d7c8256"></image></label> <label class="_span data-v-1d7c8256 text">电话</label></view></view></view></view> <view class="_div data-v-1d7c8256 both"></view> <template data="{{...$root[$kk+'1'], $root}}" is="0eb97f32"></template></view></template>

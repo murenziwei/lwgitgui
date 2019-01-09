@@ -1,0 +1,1 @@
+<template name="75e15a0f"><view class="_div data-v-d4de14d0 sure-wrap"><view class="_div data-v-d4de14d0 empty" catchtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">清空</view> <view catchtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_div data-v-d4de14d0">确定</view></view></template>

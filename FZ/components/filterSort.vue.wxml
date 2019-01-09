@@ -1,0 +1,1 @@
+<template name="0b2a39a1"><view class="_div data-v-9c01fcac filterSort"><view class="_div data-v-9c01fcac sort-wrap"><view class="_div data-v-9c01fcac item" wx:key="item" key="{{item}}" catchtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" wx:for="{{filter}}" wx:for-index="index" wx:for-item="item">{{item}}</view></view></view></template>

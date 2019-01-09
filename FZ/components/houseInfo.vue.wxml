@@ -1,0 +1,5 @@
+<template name="1a60475a"><view class="_div data-v-30a521ac houseinfo-wrap" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><view class="_div data-v-30a521ac left"><image src="/static/info-img.jpg" class="_img data-v-30a521ac"></image></view> <view class="_div data-v-30a521ac info"><view class="_div data-v-30a521ac title"><label class="_span data-v-30a521ac type">{{item.type}}</label> <label class="_span data-v-30a521ac dian">·</label> <label class="_span data-v-30a521ac">{{item.title}}</label></view> <view class="_div data-v-30a521ac price">
+      {{item.price}}/月
+    </view> <view class="_div data-v-30a521ac specific"><label wx:key="sp" key="{{sp}}" wx:for="{{item.specific}}" wx:for-index="index" wx:for-item="sp" class="_span data-v-30a521ac">
+        {{sp}}
+      </label></view> <view class="_div data-v-30a521ac tag-wrap"><label class="_span data-v-30a521ac tag" wx:key="item" key="{{item}}" wx:for="{{item.tag}}" wx:for-index="index" wx:for-item="tag" style=" {{('color:' + tag.color + ';' + 'background:' + tag.bgc + ';')}}">{{tag.text}}</label></view></view></view></template>

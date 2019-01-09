@@ -1,0 +1,3 @@
+<template name="0eb97f32"><view class="_div data-v-9984988a gohome" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+  回到首页
+</view></template>

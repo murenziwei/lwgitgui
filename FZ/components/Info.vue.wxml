@@ -1,0 +1,9 @@
+<import src="/components/slots" /><template name="3571a779"><view class="_div data-v-2d5b6a42 info-wrap" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"><template name="time"></template><template name="callphone"></template><view class="_div data-v-2d5b6a42 left"><image src="/static/info-img.jpg" class="_img data-v-2d5b6a42"></image></view> <view class="_div data-v-2d5b6a42 info"><view class="_div data-v-2d5b6a42 title">
+      {{item.title}}
+    </view> <view class="_div data-v-2d5b6a42 specific"><label wx:key="sp" key="{{sp}}" wx:for="{{item.specific}}" wx:for-index="index" wx:for-item="sp" class="_span data-v-2d5b6a42">
+        {{sp}}
+      </label></view> <view class="_div data-v-2d5b6a42 addr">
+      {{item.addr}}
+    </view> <view class="_div data-v-2d5b6a42 price">
+        {{item.price}}
+      <label class="_span data-v-2d5b6a42">万元</label> <template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slottime || 'time'}}"></template></view> <template data="{{...$root[$p], ...$root[$k], $root}}" is="{{$slotcallphone || 'callphone'}}"></template></view></view></template>

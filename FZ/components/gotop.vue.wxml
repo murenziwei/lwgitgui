@@ -1,0 +1,1 @@
+<template name="28c20ed2"><view class="_div data-v-2e10a529 gotop" hidden="{{!(cangotop)}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></view></template>
